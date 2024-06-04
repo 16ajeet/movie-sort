@@ -4,8 +4,8 @@ import React from 'react';
 const MovieList = ({ movies, selectedGenre }) => {
   return (
     <div className='movie-list '>
-      <table className='table test-border'>
-        <thead className='thead test-border'>
+      <table className='table '>
+        <thead className='thead '>
           <tr>
             <th>Title</th>
             <th>Genre</th>

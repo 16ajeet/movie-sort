@@ -34,7 +34,7 @@ const App = () => {
   };
 
   return (
-    <div className='main-container test-border'>
+    <div className='main-container '>
       <h1 className='top-heading'>Top 15 movies of all time</h1>
       <GenreFilter genres={genres} onGenreSelect={handleGenreSelect} />
       <MovieList movies={movies} selectedGenre={selectedGenre} />
