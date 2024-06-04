@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.test-border{
+  border: 2px solid red;
+}
+
+.top-heading{
+  padding-left: 10%;
+  
+}
+
+.main-container{
+  margin-top: 10vh;
+  margin-left: 30%;
+  width: 50vw;
+}
+
+.genre-div{
+  padding: 15px 15px;
+  background-color: rgb(231, 230, 230);
+  
+}
+
+.button{
+  border: none;
+  background-color: rgb(188, 188, 188);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid rgb(163, 163, 163);
+  padding: 5px 5px;
+}
+
+th{
+  background-color: rgb(231, 230, 230);
+  padding: 5px 5px;
+  text-align: left;
+}
+
+@media screen and(max-width:427px) {
+  .main-container{
+    border: 3px solid rgb(177, 114, 250);
+  }
+}
